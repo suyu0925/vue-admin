@@ -9,6 +9,8 @@ import i18n from './lang' // Internationalization
 import router from './router'
 import store from './store'
 
+import './mock' // simulation data
+
 Vue.use(Element)
 
 new Vue({

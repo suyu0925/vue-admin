@@ -14,8 +14,10 @@
     "test": "npm run lint"
   },
   "dependencies": {
+    "axios": "0.18.0",
     "element-ui": "2.4.6",
     "js-cookie": "2.2.0",
+    "mockjs": "1.0.1-beta3",
     "vue": "2.5.17",
     "vue-i18n": "8.0.0",
     "vue-router": "3.0.1",
