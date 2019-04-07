@@ -1,2 +1,3 @@
 # vue-admin
-A admin control front-end use vue
+
+A admin control front-end use vue.

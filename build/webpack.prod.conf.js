@@ -1,4 +1,3 @@
-'use strict'
 const path = require('path')
 const utils = require('./utils')
 const webpack = require('webpack')
@@ -128,9 +127,7 @@ const webpackConfig = merge(baseWebpackConfig, {
     minimizer: [
       new UglifyJsPlugin({
         uglifyOptions: {
-          mangle: {
-            safari10: true
-          }
+          mangle: true
         },
         sourceMap: config.build.productionSourceMap,
         cache: true,
